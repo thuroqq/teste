@@ -3,6 +3,7 @@
 *{
     margin: 0;
     font-family: 'Poppins';
+    padding: 0;
 }
 body{
     color: rgb(26, 26, 26);
@@ -13,9 +14,8 @@ a {
 
 }
 
-.cabeçalho {    
-    
-    padding: 10px;
+
+.cabeçalho {   
     border-width: 0px 0px 1px 0px;
     border-color: #B1A2A2;
     border-style:solid;
@@ -23,8 +23,11 @@ a {
     overflow:hidden;
     width: 100%;
     background-color: white;
-    height: 6%;
+    height: auto;
     color: rgb(26, 26, 26);
+    position: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
     }
 
 .cabeçalho div { 
