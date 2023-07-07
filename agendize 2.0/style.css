@@ -7,6 +7,7 @@
 }
 body{
     color: rgb(26, 26, 26);
+    text-align: justify;
 }
 a {
     text-decoration: none;
@@ -209,4 +210,50 @@ button{
     flex-direction: row;
     align-items: center;
     gap: 10px;
+}
+.tempos{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:center;
+    align-items: center;
+
+}
+.arrumartexto{
+    text-align: justify;
+}
+.h1titulo{
+    font-size:30px;
+}
+.escritoDireito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.centralizando{
+    height: 30px;
+}
+.display{
+    display: flex;
+    justify-content: center;
+    align-items:initial;
+    flex-direction:column;
+}
+.arrumarimg{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+}
+#linha-horizontal {
+    width: 100%;
+    border: 1px solid #dddcdcd3;
+}
+#linha-horizontall {
+
+    width: 80%;
+    border: 1px solid #dddcdcd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
