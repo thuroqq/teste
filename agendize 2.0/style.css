@@ -175,16 +175,11 @@ button{
 }
 
 .conteudo_baixo {
-    margin-top: 40px;
-    height: 450px;
+    margin-top: 20px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-
-    
-   
-
 }
 .conteudoTexto {
     margin-top: 10px;
@@ -250,12 +245,4 @@ button{
 #linha-horizontal {
     width: 100%;
     border: 1px solid #dddcdcd3;
-}
-#linha-horizontall {
-
-    width: 80%;
-    border: 1px solid #dddcdcd3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
