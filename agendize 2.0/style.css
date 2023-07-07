@@ -85,7 +85,7 @@ main{
    
     width:100vw;
     height: 100vh;
-    background-color: #22A448;
+   
 }
 
 .first_sec { 
@@ -211,9 +211,10 @@ button{
 .tempos{
     height: 100%;
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 30% 40%;
     justify-content:center;
     align-items: center;
+    gap:5%;
 
 }
 .arrumartexto{
