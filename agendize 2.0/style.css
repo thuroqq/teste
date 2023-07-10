@@ -195,7 +195,7 @@ button{
     margin-bottom: 600px;
     height: 350px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100vw;
  
 }
@@ -215,6 +215,7 @@ button{
     justify-content:center;
     align-items: center;
     gap:5%;
+    
 
 }
 .arrumartexto{
@@ -246,4 +247,13 @@ button{
 #linha-horizontal {
     width: 100%;
     border: 1px solid #dddcdcd3;
+}
+
+.conteudosSS {
+    font-weight: 500;
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
 }
